@@ -1,0 +1,53 @@
+version: "3"
+services:
+  fluentd:
+
+    build: ./fluentd
+    volumes:
+      - ./fluentd/conf:/fluentd/etc
+    links:
+      - "elasticsearch"
+    ports:
+      - "10000:10000/udp"
+      - "10001:10001/udp"
+      - "10002:10002/udp"
+      - "10003:10003/udp"
+      - "10004:10004/udp"
+      - "10005:10005/udp"
+      - "10006:10006/udp"
+      - "10007:10007/udp"
+      - "10008:10008/udp"
+      - "10009:10009/udp"
+      - "10010:10010/udp"
+      - "10011:10011/udp"
+      - "10012:10012/udp"
+      - "10013:10013/udp"
+      - "10014:10014/udp"
+      - "10015:10015/udp"
+      - "10016:10016/udp"
+      - "10017:10017/udp"
+      - "10018:10018/udp"
+      - "10019:10019/udp"
+      - "10020:10020/udp"
+      - "10021:10021/udp"
+      - "10022:10022/udp"
+      - "10023:10023/udp"
+      - "10024:10024/udp"
+      - "10025:10025/udp"
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.13.1
+    container_name: elasticsearch
+    environment:
+      - "discovery.type=single-node"
+    expose:
+      - "9200"
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.13.1
+    links:
+      - "elasticsearch"
+      - "fluentd"
+    ports:
+      - "5601:5601"
