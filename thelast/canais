@@ -24,8 +24,22 @@ Frequencia: F-3795\ SR-3590\ RF-01
 
 ---Vertical---
 
-MUX Mux Fundação Padre Anchieta
+ Mux Fundação Padre Anchieta
 CANAIS: CULTURA \ MULTICULTURA \ PRIME-BOX \ RA-TIM-BUM
 IP: 227.100.100.11
 Frequencia: F-4112\ SR-14800\ T-1
----
+
+---Horizontal---
+
+MUX-CNN
+Canais: CNNi \ CNNe
+IP: 235.1.1.56
+Frequencia: F-4040\ SR-30800\ RF-1 
+
+---Horizontal---
+
+Mux Box Brazil
+Canais: MUSIC \ TRAVEL \ FASHION \ WOOHOO
+IP: 227.100.100.12
+Frequencia: F-4150\ SR-20082\ T-2
+
