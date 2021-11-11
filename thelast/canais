@@ -1,20 +1,29 @@
 ---Vertical---
+
 Canal: SEXTREME
 IP: 235.1.1.170 
 Frequencia: F-3992\ SR-7320\ RF-01
+
 ---Vertical---
+
 Canal: SEXY-HOT
 IP: 235.1.1.44
 Frequencia: F-3980\ SR-2500\ RF-03
+
 ---Vertical--- 
+
 Canal: VENUS-HD
 IP: 235.1.1.43
 Frequencia:	F-3985\ SR-4400\ RF-02
----Vertical
+
+---Vertical---
+
 Canal: PLAYBOY-HD
 IP: 235.1.1.42
 Frequencia: F-3795\ SR-3590\ RF-01
+
 ---Vertical---
+
 MUX Mux Fundação Padre Anchieta
 CANAIS: CULTURA \ MULTICULTURA \ PRIME-BOX \ RA-TIM-BUM
 IP: 227.100.100.11
