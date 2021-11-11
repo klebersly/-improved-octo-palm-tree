@@ -1,4 +1,3 @@
-###Polarização Vertical
 ---
 Canal: SEXTREME
 IP: 235.1.1.170 
