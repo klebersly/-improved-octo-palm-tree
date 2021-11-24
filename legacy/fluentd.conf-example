@@ -1,0 +1,53 @@
+<system>
+process_name CGNAT_a10
+</system>
+
+#a10.flcce
+
+<source>
+@type syslog
+port 10023
+bind 0.0.0.0
+tag a10.flcce
+<parse>
+@type none
+</parse>
+<transport udp>
+</transport>
+</source>
+
+#a10.cslce
+
+<source>
+@type syslog
+port 10024
+bind 0.0.0.0
+tag au10.cslce
+<parse>
+@type none
+</parse>
+<transport udp>
+</transport>
+</source>
+# ERROR LOGS
+<label @FLUENT_LOG>
+<match **>
+@type file
+path /var/log/fluent_error/
+</match>
+</label>
+
+
+#Log Forwarding
+
+<match **>
+@type forward
+<server>
+host 10.70.7.71
+port 55687
+</server>
+</match>
+
+#<match >
+#@type stdout
+#</match>
