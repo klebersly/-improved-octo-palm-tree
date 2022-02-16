@@ -14,3 +14,10 @@ spec:
     - name: mountconfig
       configMap:
         name: myconfigmap
+    env:
+    - name: 
+      value: 
+    - name: 
+      value: 
+    - name: 
+      value: 
