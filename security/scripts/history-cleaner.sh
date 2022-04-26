@@ -13,31 +13,31 @@ ALOG="audit/audit.log"
 
 # Clear Log and Mail files.
 
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/$ALOG
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/$MLOG
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/boot.log
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/btmp
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/cron
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/dmesg
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/dracut
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/kernel
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/lastlog
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/maillog
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/messages
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/monitorix
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/secure
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/spooler
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/tallylog
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/wtmp
-echo "---: New Logs Bellow - $DATE :---" > $BASELOG/yum.log
+echo "---: no logs no crime - $DATE :---" > $BASELOG/$ALOG
+echo "---: no logs no crime - $DATE :---" > $BASELOG/$MLOG
+echo "---: no logs no crime - $DATE :---" > $BASELOG/boot.log
+echo "---: no logs no crime - $DATE :---" > $BASELOG/btmp
+echo "---: no logs no crime - $DATE :---" > $BASELOG/cron
+echo "---: no logs no crime - $DATE :---" > $BASELOG/dmesg
+echo "---: no logs no crime - $DATE :---" > $BASELOG/dracut
+echo "---: no logs no crime - $DATE :---" > $BASELOG/kernel
+echo "---: no logs no crime - $DATE :---" > $BASELOG/lastlog
+echo "---: no logs no crime - $DATE :---" > $BASELOG/maillog
+echo "---: no logs no crime - $DATE :---" > $BASELOG/messages
+echo "---: no logs no crime - $DATE :---" > $BASELOG/monitorix
+echo "---: no logs no crime - $DATE :---" > $BASELOG/secure
+echo "---: no logs no crime - $DATE :---" > $BASELOG/spooler
+echo "---: no logs no crime - $DATE :---" > $BASELOG/tallylog
+echo "---: no logs no crime - $DATE :---" > $BASELOG/wtmp
+echo "---: no logs no crime - $DATE :---" > $BASELOG/yum.log
 
-echo "---: New Logs Bellow - $DATE :---" > $BASESA/sa30
-echo "---: New Logs Bellow - $DATE :---" > $BASESA/sa31
-echo "---: New Logs Bellow - $DATE :---" > $BASESA/sar30
+echo "---: no logs no crime - $DATE :---" > $BASESA/sa30
+echo "---: no logs no crime - $DATE :---" > $BASESA/sa31
+echo "---: no logs no crime - $DATE :---" > $BASESA/sar30
 
-echo "---: New Logs Bellow - $DATE :---" > $BASEMAIL/root
-echo "---: New Logs Bellow - $DATE :---" > $BASEMAIL/monitorix
-echo "---: New Logs Bellow - $DATE :---" > $BASEMAIL/rpc
+echo "---: no logs no crime - $DATE :---" > $BASEMAIL/root
+echo "---: no logs no crime - $DATE :---" > $BASEMAIL/monitorix
+echo "---: no logs no crime - $DATE :---" > $BASEMAIL/rpc
 
 # Deletion 
 
